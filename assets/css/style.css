@@ -1,0 +1,35 @@
+.masterhead {
+    margin-left: 475px;
+    margin-bottom: .5rem
+}
+.rounded {
+    width: 280px;
+    height: 280px;
+}
+p {
+    margin-bottom: 1rem
+
+@media(min-width:414px) and (max-width:768px){
+    p > img {
+        width: 35%;
+    }
+    #me-content > p {
+        font-size: medium;
+    }
+}
+@media(min-width:376px) and (max-width:414px){
+    p > img {
+        width: 50%;
+    }
+    #me-content > p {
+        font-size: small;
+    }
+}
+@media(min-width:200px) and (max-width:375px){
+    p > img {
+        width: 50%;
+    }
+    #me-content > p {
+        font-size: small;
+    }
+}

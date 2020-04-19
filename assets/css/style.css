@@ -3,33 +3,17 @@
     margin-bottom: .5rem
 }
 .rounded {
+    padding: 20px;
     width: 280px;
     height: 280px;
-}
-p {
-    margin-bottom: 1rem
-
-@media(min-width:414px) and (max-width:768px){
-    p > img {
-        width: 35%;
-    }
-    #me-content > p {
-        font-size: medium;
-    }
-}
-@media(min-width:376px) and (max-width:414px){
-    p > img {
-        width: 50%;
-    }
-    #me-content > p {
-        font-size: small;
-    }
-}
-@media(min-width:200px) and (max-width:375px){
-    p > img {
-        width: 50%;
-    }
-    #me-content > p {
-        font-size: small;
-    }
-}
+} 
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  } 
+  

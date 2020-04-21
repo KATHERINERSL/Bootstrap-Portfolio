@@ -1,3 +1,6 @@
+body {
+  background: url("../images/concrete_seamless.png");
+}
 #img1 {
     float: left;
     margin-right: 10px;
@@ -36,6 +39,7 @@
     position: relative;
     border:1px solid #dddddd;
     padding:30px;
+    background-color: #ffffff;
   }
   #mainhead {
     line-height: 80px;
@@ -49,3 +53,21 @@
     color: #4aaaa5;
     font-weight: bold
   }
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 65%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  nav {
+    float: right;
+  }
+  
